@@ -4,7 +4,7 @@ from openai import OpenAI
 # Show title and description.
 st.title("💬 Chatbot")
 st.write(
-    "To use this app, enter your OpenAI API key. "
+    "Enter your OpenAI API key. "
 )
 
 # Ask user for their OpenAI API key via `st.text_input`.
